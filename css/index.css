@@ -1,0 +1,183 @@
+html {
+    background-color: rgb(218, 224, 230);
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(218, 224, 230);
+}
+
+/* Navigation */
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.navbar-logo {
+    width: auto;
+    text-align: center;
+    padding: .5rem;
+    margin-left: 14%;
+    color: rgba(29,161,242,1.00);
+}
+
+.navbar-login {
+    width: 5rem;
+    float: right;
+    text-align: center;
+    padding: .5rem;
+    margin-top: 3rem;
+    border: 2px solid rgba(77,181,245,1.00);
+    border-radius: 4px; 
+    color: rgba(77,181,245,1.00);
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.navbar-signup {
+    width: 5rem;
+    float: right;
+    text-align: center;
+    padding: .5rem;
+    margin-top: 3rem;
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+    border: 2px solid rgba(77,181,245,1.00);
+    border-radius: 4px; 
+    color: white;
+    background-color: rgba(77,181,245,1.00);
+    font-weight: bold;
+}
+
+.navbar-signup:hover {
+    background-color: rgba(29,161,242,1.00);
+    border: 2px solid rgba(29,161,242,1.00);
+}
+
+/* Mainbody */
+.mainbody {
+    margin: auto auto auto auto;
+    margin-top: 2.5rem;
+    width: 75%;
+    height: auto;
+    /*background-color: white;*/
+}
+
+#col2-text {
+    margin-top: 1.5rem;
+    resize: none;
+    border: 0px;
+    border-radius: 4px; 
+    box-shadow: 2px 2px 4px grey;
+}
+
+#col2-text:focus {
+    outline: 0px;
+}
+
+
+
+/* Columns */
+.col1 {
+    width: 23%;
+    float: left;
+    text-align: center;
+    height: 16rem;
+    border-radius: 4px; 
+    background-color: rgb(157,157,157);
+    box-shadow: 2px 2px 4px black;
+}
+
+.col1-userwrapper {
+    background-color: none;
+}
+
+.col2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 50rem;
+    margin-left: 1.8rem;
+    margin-right: 1rem;
+}
+
+.col2-newpostings {
+    margin: auto auto auto auto;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    padding-top: 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px; 
+    background-color: white;
+    width: 30rem;
+
+}
+
+#col2-submit-button {
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 4px; 
+    border-color: rgba(77,181,245,1.00);
+    color: white;
+    background-color: rgba(77,181,245,1.00);
+    font-weight: bold;
+}
+
+#col2-submit-button:hover {
+    background-color: rgba(29,161,242,1.00);
+    border-color: rgba(29,161,242,1.00);
+}
+
+#col2-submit-button:focus {
+    outline: none;
+}
+
+.checked {
+    color: orange;
+}
+
+.col3 {
+    width: 23%;
+    float: right;
+    text-align: center;
+    height: 30rem;
+    border-radius: 4px; 
+    background-color: rgb(141, 162, 175);
+    box-shadow: 2px 2px 4px black;
+}
+
+.col3 > ul {
+    list-style-type: none;
+    text-indent: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.col3-top-item-idea {
+    margin: auto auto auto auto;
+    width: 15rem;
+    background-color: red;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col3-top-item-idea > li > h4 {
+    margin: 0;
+    float: left;
+    margin-left: 2.3rem;
+}
+
+.col3-rating {
+    float: left;
+    margin-left: 2rem;
+}
