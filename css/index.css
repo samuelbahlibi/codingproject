@@ -165,9 +165,9 @@ body {
     margin-right: 2rem;
     text-align: center;
     height: 42rem;
+    border: 1px solid #cccccc;
     border-radius: 4px; 
-    background-color: rgb(141, 162, 175);
-    box-shadow: 2px 2px 4px black;
+    background-color: white;
 }
 
 .col3-top-item-idea {
