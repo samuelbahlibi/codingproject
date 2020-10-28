@@ -85,10 +85,14 @@ body {
 
 #col2-text {
     margin-top: 1.5rem;
+    padding-left: 30px;
+    padding-top: 15px;
     resize: none;
     border: 0px;
     border-radius: 4px; 
-    box-shadow: 2px 2px 4px grey;
+    border: 1px solid #cccccc;
+    border-radius: 4px; 
+    background-color: white;
 }
 
 #col2-text:focus {
@@ -156,8 +160,49 @@ body {
     outline: none;
 }
 
-.checked {
-    color: orange;
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+.rate {
+    position: absolute;
+    margin-left: 9.5rem;
+    margin-right: 10rem;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffc700;  
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffc700;
 }
 
 .col3 {
