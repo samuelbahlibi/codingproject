@@ -97,6 +97,7 @@ body {
 
 
 /* Columns */
+/* 
 .col1 {
     width: 23%;
     float: left;
@@ -110,14 +111,15 @@ body {
 .col1-userwrapper {
     background-color: none;
 }
+*/
 
 .col2 {
-    width: 50%;
+    width: 49%;
     float: left;
     text-align: center;
     height: 50rem;
-    margin-left: 1.8rem;
-    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .col2-newpostings {
@@ -157,7 +159,10 @@ body {
 
 .col3 {
     width: 23%;
-    float: right;
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: center;
     height: 42rem;
     border-radius: 4px; 
