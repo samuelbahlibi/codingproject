@@ -112,6 +112,7 @@ body {
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: rgba(77,181,245,1.00);
+    color: white;
 }
 
 .login-close-button:hover {
