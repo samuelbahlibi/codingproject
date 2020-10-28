@@ -22,45 +22,55 @@ body {
 }
 
 .navbar-logo {
-    width: auto;
-    text-align: center;
-    padding: .5rem;
-    margin-left: 14%;
-    color: rgba(29,161,242,1.00);
+    padding: 1rem;
+}
+
+.navbar-logo-img {
+    width: 2%;
+    height: auto;
+}
+
+.navbar-login-signup {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 1rem;
 }
 
 .navbar-login {
-    width: 5rem;
-    float: right;
-    text-align: center;
-    padding: .5rem;
-    margin-top: 3rem;
-    border: 2px solid rgba(77,181,245,1.00);
+    float: left;
+    width: 6rem;
+    height: 2rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    border: 1px solid rgba(77,181,245,1.00);
     border-radius: 4px; 
     color: rgba(77,181,245,1.00);
     background-color: white;
     font-weight: bold;
+}
 
+.navbar-login:focus {
+    outline: none;
 }
 
 .navbar-signup {
-    width: 5rem;
     float: right;
-    text-align: center;
-    padding: .5rem;
-    margin-top: 3rem;
-    margin-right: 2.5rem;
-    margin-left: 1rem;
+    width: 6rem;
+    height: 2rem;
+    text-transform: uppercase;
     border: 2px solid rgba(77,181,245,1.00);
     border-radius: 4px; 
     color: white;
     background-color: rgba(77,181,245,1.00);
-    font-weight: bold;
 }
 
 .navbar-signup:hover {
     background-color: rgba(29,161,242,1.00);
     border: 2px solid rgba(29,161,242,1.00);
+}
+
+.navbar-signup:focus {
+    outline: none;
 }
 
 /* Mainbody */
@@ -112,14 +122,13 @@ body {
 
 .col2-newpostings {
     margin: auto auto auto auto;
-    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     padding: 2rem;
     padding-top: 0;
     border: 1px solid #cccccc;
     border-radius: 4px; 
     background-color: white;
     width: 30rem;
-
 }
 
 #col2-submit-button {
