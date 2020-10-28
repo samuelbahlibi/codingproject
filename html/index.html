@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="wrapper">
+        <!--Navigation Bar-->
         <div class="navbar" id="main-navbar">
             <div class="navbar-login-signup">
                 <input type="submit" value="Sign Up" class="navbar-signup">
@@ -18,7 +19,14 @@
             <div class="navbar-logo" >
                 <a href="index.html"><img src="/img/logo-2.png" alt="Coding Projects Logo" class="navbar-logo-img"></a>
             </div>
+            <div class="navbar-search">
+                <form>
+                    <textarea id="navbar-search-bar" rows="1" cols="60" spellcheck="true" placeholder="Search..."></textarea><i class="fa fa-search" aria-hidden="true"></i>
+                </form>
+            </div>
         </div>
+
+        <!--Login Modal-->
         <div class="login-field">
             <div class="navbar-login-modal">
                 <div class="login-modal-content">
@@ -40,6 +48,8 @@
                 </div>
             </div> 
         </div>
+
+        <!--Signup Modal-->
         <div class="signup-field">
             <div class="navbar-signup-modal">
                 <div class="signup-modal-content">
@@ -79,7 +89,7 @@
             </div>
             -->
             <div class="col2">
-                <textarea id="col2-text" rows="4" cols="60" maxlength="150" spellcheck="true">Share your ideas!</textarea>
+                <textarea id="col2-text" rows="4" cols="60" maxlength="150" spellcheck="true" placeholder="Share your ideas!"></textarea>
                 <br>
                 <input type="submit" value="Submit" id="col2-submit-button">
                 <div class="col2-newpostings"> 
